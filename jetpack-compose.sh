@@ -12,3 +12,7 @@ cd androidx-master-dev
 #init the AOSP
 repo init -u https://android.googlesource.com/platform/manifest -b androidx-master-dev
 repo sync -j8 -c 
+
+#move to framework ui dir and setup your android studio
+cd frameworks/support/ui
+./studiow
