@@ -4,6 +4,21 @@ Last Google I/O the Android Team officialy announced a new component called ANDR
 
 I create a script so you can do some experiment and trying the power of jetpack compose.
 
+## How to run
+After clone this project, run this command:
+
+```
+./jetpack-compose.sh
+```
+
+if the script don't have permission as executable, run this command:
+
+```
+chmod +x jetpack-compose
+```
+
+It will take a while to download AOSP and setup to your local machine. So take your coffee! :coffee:
+## Jetpack Compose
 Jetpack Compose aims to be a declarative framework to build Android user interfaces easily using a Kotlin like this:
 
 ```
